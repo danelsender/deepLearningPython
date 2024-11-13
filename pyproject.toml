@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deeplearningwithpython"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+keras = ">=2.14.0,<2.15"
+jupyter = "^1.1.1"
+tensorflow-io-gcs-filesystem = "0.35.0"
+tensorflow = "~2.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
